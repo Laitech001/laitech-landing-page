@@ -1,4 +1,5 @@
 import ServicesCard from "./servicesCard"
+import './service.css'
 import {
   Wrench,
   Smartphone,
@@ -42,15 +43,25 @@ function Service() {
     }
   ]
   return (
-    <div className="service">
-      {services.map((service, index) => (
-        <ServicesCard 
-          key= {index}
-          icon= {service.icon}
-          title = {service.title}
-          description = {service.description}
-        />
-      ))}
+    <div className="services">
+      <h2>Our Services</h2>
+
+      <div className="services-grid">
+        {services.map((service, index) => (
+          <ServicesCard 
+            key= {index}
+            icon= {service.icon}
+            title = {service.title}
+            description = {service.description}
+          />
+        ))}
+      </div>
+
+      <div className="more-detail">
+        <h3>Why Choose Us?</h3>
+
+        <p>We are committed to delivering high-quality tech solutions that meet your business needs. Our team of experts is dedicated to providing exceptional service and support, ensuring your satisfaction every step of the way.</p>
+      </div>    
     </div>
   )
 }

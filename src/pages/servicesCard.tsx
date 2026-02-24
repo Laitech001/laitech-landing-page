@@ -9,7 +9,7 @@ type ServiceCardProps = {
 function ServicesCard({icon: Icon, title, description}: ServiceCardProps) {
   return (
     <div className="service-card">
-      <Icon size={40} className='service-icon'/>
+      <Icon className='service-icon'/>
       <h3>{title}</h3>
       <p>{description}</p>
     </div>

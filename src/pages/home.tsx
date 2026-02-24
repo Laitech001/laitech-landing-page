@@ -1,6 +1,8 @@
+import Footer from './footer'
 import Header from './header'
 import Hero from './hero'
 import Service from './service'
+
 
 function Home() {
   return (
@@ -8,6 +10,7 @@ function Home() {
       <Header />
       <Hero />
       <Service />
+      <Footer />
     </div>
   )
 }
