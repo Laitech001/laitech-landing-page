@@ -1,14 +1,11 @@
-import Hero from './hero'
 import Service from './service'
 
-
-function Home() {
+function ServicePage() {
   return (
     <div>
-      <Hero />
       <Service />
     </div>
   )
 }
 
-export default Home
+export default ServicePage

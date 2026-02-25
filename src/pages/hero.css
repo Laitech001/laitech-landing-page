@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #1E3A8A;
+  --secondary-color: #06B6D4;
+  --background-color: #fff;
+  --text-color: #333;
+}
 .hero {
   position: relative;
   width: 100%;
@@ -6,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 .hero img {
   position: absolute;
@@ -44,11 +50,19 @@
 }
 
 .learn-more-btn {
-  background-color: #1E3A8A;
+  background-color: var(--primary-color);
   color: white;
+  transition: background-color 0.3s ease;
+}
+.learn-more-btn:hover {
+  background-color: var(--secondary-color);
 }
 
 .contact-btn {
-  background-color: #06B6D4;
+  background-color: var(--secondary-color);
   color: white;
+  transition: background-color 0.3s ease;
+}
+.contact-btn:hover {
+  background-color: var(--primary-color);
 }
