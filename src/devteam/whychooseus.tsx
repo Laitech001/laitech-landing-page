@@ -1,4 +1,4 @@
-import './websitepage.css'
+import './devteam.css'
 
 function Whychooseus() {
   return (

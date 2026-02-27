@@ -4,7 +4,7 @@ import Howitwork from './howitwork'
 import Service from './service'
 import Whychooseus from './whychooseus'
 
-function Websitepage() {
+function DevTeam() {
   return (
     <>
       <DevTeamHero />
@@ -16,4 +16,4 @@ function Websitepage() {
   )
 }
 
-export default Websitepage
+export default DevTeam

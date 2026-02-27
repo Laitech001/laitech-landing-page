@@ -1,6 +1,9 @@
-import './websitepage.css'
+import './devteam.css'
 
 function DevTeamHero() {
+
+  const whatsappLink = "https://wa.me/2347062639160?text=Hello%20LAITECH%20I%20want%20to%20build%20a%20website"
+
   return (
     <div className='hero-section'>
 
@@ -11,7 +14,11 @@ function DevTeamHero() {
       <div className="hero-content">
         <h1>We Turn Ideas Into Powerful Web Experiences</h1>
         <p>Laitech Dev Team specializes in building modern websites and web applications that are secure, responsive, and performance-driven — crafted to elevate brands and deliver real results</p>
-        <button>Hire Us</button>
+        
+        <a href={whatsappLink} target="_blank"
+        rel="noopener noreferrer">
+          Hire Us
+        </a>
       </div>
     </div>
   )

@@ -20,7 +20,7 @@ function Header() {
       <nav>
         <ul>
           <Link to="/">Home</Link>
-          <Link to="/websitepage">Dev Team</Link>
+          <Link to="/devteam">Dev Team</Link>
           <Link to="/about">About</Link>
           <Link to="/servicePage">Services</Link>
           <Link to="/contact">Contact</Link>

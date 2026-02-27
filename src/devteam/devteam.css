@@ -36,6 +36,19 @@
   color: var(--primary-color);
   font-size: 24px;
 }
+.hero-content a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+.hero-content a:hover {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
 
 .service-section {
   padding: 10px 20px;
@@ -74,13 +87,41 @@
   color: var(--primary-color);
 }
 
-.contact h1 {
+.contact h1,
+.contact p {
   text-align: center;
 }
 .contact ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 18px;
-  list-style-type: style typw;
+  margin-bottom: 10px;
 }
-.contact ul li strong {
+.contact ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.contact ul li a:hover {
+  text-decoration: underline;
+}
+.contact ul li button {
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
   color: var(--primary-color);
+  padding: 5px 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.contact ul li button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.contact ul li button a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
 }
