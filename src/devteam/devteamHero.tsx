@@ -1,4 +1,5 @@
 import './devteam.css'
+import laitechDevLogo from '../assets/laitechdevLogo.png'
 
 function DevTeamHero() {
 
@@ -8,7 +9,7 @@ function DevTeamHero() {
     <div className='hero-section'>
 
       <div className="hero-image">
-        <img src="/src/assets/laitechdevLogo.png" alt="Hero Image" />
+        <img src={laitechDevLogo} alt="Hero Image" />
       </div>
 
       <div className="hero-content">

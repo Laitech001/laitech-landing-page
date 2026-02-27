@@ -1,10 +1,11 @@
 import './hero.css'
+import heroImage from '../assets/hero-image.png'
 
 function Hero() {
   return (
     <div className="hero">
       <img 
-        src="src/assets/hero-image.png" 
+        src={heroImage} 
         alt="Hero Image" 
       />
       <div className="hero-overlay">

@@ -1,11 +1,12 @@
 import { Link } from 'react-router'
+import logoimg from '../assets/logo.png'
 import './header.css'
 
 function Header() {
   return (
     <div className="header">
       <div className="header-left">
-        <img src="/src/assets/logo.png" alt="Laitech Logo" />
+        <img src={logoimg} alt="Laitech Logo" />
         <h1>
           <span className='L'>L</span>
           <span className='A'>A</span>

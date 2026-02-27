@@ -1,4 +1,5 @@
 import './about.css'
+import laptopHero from '../assets/laptop-hero.png'
 
 function AboutHero() {
   return (
@@ -14,7 +15,7 @@ function AboutHero() {
       </section>
 
       <section className="image">
-        <img src="src/assets/laptop-hero.png" alt="about hero" />
+        <img src={laptopHero} alt="about hero" />
       </section>
     </div>
   )
