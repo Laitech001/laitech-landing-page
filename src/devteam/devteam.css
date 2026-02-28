@@ -125,3 +125,28 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 600px) {
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .hero-content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .hero-content h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .hero-content p {
+    margin-bottom: 10px;
+  }
+
+  .service-section h1 {
+    margin-bottom: 15px;
+  }
+}

@@ -66,3 +66,16 @@
 .contact-btn:hover {
   background-color: var(--primary-color);
 }
+
+@media (max-width: 600px) {
+  .hero {
+    height: 100vh;
+  }
+  .hero img {
+    height: 90vh;
+  }
+  .hero-overlay {
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,5 +1,5 @@
 .footer {
-  max-height: 100px;
+  max-height: 100vh;
   height: 100%;
   background-color: #0F172A;
   color: #fff;
@@ -28,4 +28,13 @@
 }
 .contact-item span {
   font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .contact-us {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
 }

@@ -1,4 +1,5 @@
 import Hero from './hero'
+import '../App.css'
 import Service from './service'
 
 

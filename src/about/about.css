@@ -136,3 +136,26 @@
   background-color: var(--primary-color);
   color: #fff;
 }
+
+@media (max-width: 600px) {
+  .about-hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-hero .text {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .about-hero .text h1 {
+    text-align: center;
+  }
+
+  .what-we-do h1 {
+    margin-bottom: 15px;
+  }
+  .vision-section {
+    margin-bottom: 15px;
+  }
+}

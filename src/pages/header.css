@@ -23,7 +23,6 @@
 .header-left img {
   height: 100px;
   width: 100px;
-  margin-right: 0px;
   box-sizing: border-box;
 }
 .header-left h1 {
@@ -53,3 +52,35 @@ nav a:hover {
   border-bottom: 1px solid var(--secondary-color);
 }
 
+@media (max-width: 600px) {
+  .header {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  } 
+  .header-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  } 
+  .header-left h1 {
+    font-size: 30px;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  }
+  nav a {
+    flex: 0 1 auto;
+    margin: 0;
+    padding: 6px 10px;
+    white-space: nowrap;
+  }
+}
