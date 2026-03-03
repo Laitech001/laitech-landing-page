@@ -15,7 +15,7 @@ function AboutHero() {
       </section>
 
       <section className="image">
-        <img src={laptopHero} alt="about hero" />
+        <img src={laptopHero} alt="about hero" loading="lazy" />
       </section>
     </div>
   )

@@ -31,7 +31,7 @@
   margin-left: 0;
 }
 
-nav {
+nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +48,10 @@ nav a {
 }
 
 nav a:hover {
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+nav a:active {
   color: var(--secondary-color);
   border-bottom: 1px solid var(--secondary-color);
 }
@@ -70,7 +74,7 @@ nav a:hover {
   .header-left h1 {
     font-size: 30px;
   }
-  nav {
+  nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

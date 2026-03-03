@@ -117,22 +117,23 @@
   font-size: 18px;
   margin-bottom: 20px;
 }
-.call-to-action button {
+.call-to-action a {
   background-color: var(--secondary-color);
   color: #fff;
   border: none;
+  text-decoration: none;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
-  display: flex;
-  align-items: center; 
+  display: inline-flex;
   justify-content: center;
+  align-items: center;
   gap: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.call-to-action button:hover {
+.call-to-action a:hover {
   background-color: var(--primary-color);
   color: #fff;
 }
