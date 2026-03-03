@@ -7,8 +7,13 @@ import ServicePage from './pages/servicePage'
 import About from './about/about'
 import DevTeam from './devteam/devteam'
 import ContactPage from './contact/contact'
+import NotFound from './pages/NotFound'
 
 function App() {
+
+  if (!navigator.onLine) {
+    return (<p>You are offline. Check your internet connection.</p>)
+  }
 
   return (
     <>
@@ -20,9 +25,12 @@ function App() {
         <Route path="/servicePage" element={<ServicePage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/devteam" element={<DevTeam />} />
+
+        <Route path='*' element={<NotFound />} />
       </Routes>
 
       <Footer />
+
     </>
   )
 }
