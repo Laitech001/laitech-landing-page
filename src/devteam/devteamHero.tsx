@@ -9,7 +9,7 @@ function DevTeamHero() {
     <div className='hero-section'>
 
       <div className="hero-image">
-        <img src={laitechDevLogo} alt="Hero Image" />
+        <img src={laitechDevLogo} alt="Hero Image" loading='lazy' />
       </div>
 
       <div className="hero-content">
