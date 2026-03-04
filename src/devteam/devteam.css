@@ -131,6 +131,18 @@
   text-decoration: none;
 }
 
+/* tablet view */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .hero-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+}
+
+/* mobile view */ 
 @media (max-width: 600px) {
   .hero-section {
     flex-direction: column;

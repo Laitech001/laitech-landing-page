@@ -1,7 +1,7 @@
 import './about.css'
-import '../pages/servicesCard'
+import '../components/servicesCard'
 import { Globe, Smartphone, ShieldCheck } from 'lucide-react'
-import ServicesCard from '../pages/servicesCard'
+import ServicesCard from '../components/servicesCard'
 
 function WhatWeDo() {
   const whatWeDo = [

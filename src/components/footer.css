@@ -9,8 +9,10 @@
 }
 .contact-us {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
   padding: 20px 60px;
   border-right: 1px solid var(--primary-color);
   margin-bottom: 0;

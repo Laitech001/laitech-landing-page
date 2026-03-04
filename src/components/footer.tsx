@@ -7,7 +7,7 @@ function Footer() {
       <div className='contact-us'>
         <div className='contact-item'>
           <Mail size={24} />
-          <span>contact@laitech.com</span>
+          <span>contact.laitech@gmail.com</span>
         </div>
 
         <div className='contact-item'>

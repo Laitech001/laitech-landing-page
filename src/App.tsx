@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router'
 import './App.css'
-import Header from './pages/header'
-import Home from './pages/home'
-import Footer from './pages/footer'
-import ServicePage from './pages/servicePage'
+import Header from './components/header'
+import Home from './homepage/home'
+import Footer from './components/footer'
+import ServicePage from './sevicepage/servicePage'
 import About from './about/about'
 import DevTeam from './devteam/devteam'
 import ContactPage from './contact/contact'
-import NotFound from './pages/NotFound'
+import NotFound from './components/NotFound'
 
 function App() {
 

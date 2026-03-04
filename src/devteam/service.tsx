@@ -1,5 +1,5 @@
 import './devteam.css'
-import '../pages/servicesCard'
+import '../components/servicesCard'
 import {
   Cloud,
   Globe,
@@ -10,7 +10,7 @@ import {
   MousePointer,
   Layout
 } from "lucide-react";
-import ServicesCard from '../pages/servicesCard';
+import ServicesCard from '../components/servicesCard';
 
 function Service() {
   const services = [

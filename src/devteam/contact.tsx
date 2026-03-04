@@ -23,8 +23,8 @@ function Contact() {
 
         <li>
           <Mail /> 
-          <a href="mailto:laitechdev@gmail.com">
-            laitechdev@gmail.com
+          <a href="mailto:contact.laitech@gmail.com">
+            contact.laitech@gmail.com
           </a>
         </li>
 

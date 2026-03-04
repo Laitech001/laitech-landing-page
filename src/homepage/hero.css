@@ -7,12 +7,12 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .hero img {
@@ -33,7 +33,8 @@
 }
 
 .hero-overlay h1 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.1;
   margin-bottom: 1rem;
 }
 

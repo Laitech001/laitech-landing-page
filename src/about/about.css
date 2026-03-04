@@ -139,6 +139,28 @@
   color: #fff;
 }
 
+/* tablet view */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .about-hero {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+  .about-hero .text h1 {
+    font-size: 20px;
+  }
+  .about-hero .text p {
+    font-size: 16px;
+  }
+  .about-hero .image {
+    width: 270px;
+    height: 270px;
+  }
+}
+
+/* mobile view */
 @media (max-width: 600px) {
   .about-hero {
     flex-direction: column;
