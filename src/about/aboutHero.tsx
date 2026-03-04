@@ -1,5 +1,5 @@
 import './about.css'
-import laptopHero from '../assets/laptop-hero.png'
+import laptopHero from '../assets/pakata-goh-RDolnHtjVCY-unsplash.webp'
 
 function AboutHero() {
   return (

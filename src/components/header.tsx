@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router'
-import logoimg from '../assets/logo.png'
+import logoimg from '../assets/laitech-logo.webp'
 import './header.css'
 
 function Header() {

@@ -1,5 +1,5 @@
 import './devteam.css'
-import laitechDevLogo from '../assets/laitechdevLogo.png'
+import laitechdevteam from '../assets/laitechdevteam.webp'
 
 function DevTeamHero() {
 
@@ -9,7 +9,7 @@ function DevTeamHero() {
     <div className='hero-section'>
 
       <div className="hero-image">
-        <img src={laitechDevLogo} alt="Hero Image" loading='lazy' />
+        <img src={laitechdevteam} alt="Hero Image" loading='lazy' />
       </div>
 
       <div className="hero-content">
