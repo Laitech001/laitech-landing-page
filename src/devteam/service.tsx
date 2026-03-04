@@ -1,10 +1,14 @@
 import './devteam.css'
 import '../pages/servicesCard'
 import {
-  Wrench,
   Cloud,
   Globe,
   ShieldCheck,
+  Layers,
+  RefreshCcw,
+  Zap,
+  MousePointer,
+  Layout
 } from "lucide-react";
 import ServicesCard from '../pages/servicesCard';
 
@@ -16,9 +20,29 @@ function Service() {
       description: "We build modern websites and web applications for businesses."
     },
     {
-      icon: Wrench,
-      title: "Phone Repair",
-      description: "Fix software issues, unlock devices, and system errors."
+      icon: Layers,
+      title: "Single Page Application",
+      description: "Create fast, interactive web apps using React, Next.js, or similar frameworks."
+    },
+    {
+      icon: Zap,
+      title: "Performance Optimization",
+      description: "Optimized websites for speed, SEO, and smooth user experience."
+    },
+    {
+      icon: RefreshCcw,
+      title: "Maintenance & Update",
+      description: "Keep websites up-to-date with the latest web standards and security fixes."
+    },
+    {
+      icon: MousePointer,
+      title: "Interactive Features",
+      description: "Buttons, forms, sliders, and dynamic components."
+    },
+    {
+      icon: Layout,
+      title: "UI/UX Implementation",
+      description: "Converting designs into intuitive and user-friendly interfaces."
     },
     {
       icon: Cloud,
